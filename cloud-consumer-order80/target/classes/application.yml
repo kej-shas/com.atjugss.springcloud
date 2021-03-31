@@ -1,0 +1,15 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-order-service
+  mvc:
+    static-path-pattern: /**
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://jugess1:7001/eureka/,http://jugess2:7002/eureka/
