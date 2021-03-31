@@ -5,3 +5,6 @@
 负载均衡 Ribbon  
 网关 getway  
 服务降级  
+
+
+来自尚硅谷公开课 bilibili https://www.bilibili.com/video/BV1yE411x7Ky
